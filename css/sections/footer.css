@@ -1,0 +1,63 @@
+.footer{
+    
+    padding: 0px 40px;
+
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.footer__logo{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--hero-color);
+    font-family: "Anek Devanagari", sans-serif;
+    cursor: pointer;
+}
+
+.footer__logo span{
+    color: var(--primary-color);
+}
+
+.footer ul{
+    list-style: none;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px;
+}
+
+.footer ul:last-child{
+    gap: 32px;
+}
+
+
+.footer__nav li a{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Anek Devanagari", sans-serif;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+
+.footer__social li{
+   
+    width: 42px;
+    height: 42px;
+
+    background-color: var(--primary-color);
+    border-radius: 100%;
+}
+
+.footer__social li img{
+    width: 45%;
+    height: 45%;
+
+    object-fit: contain;
+}
+

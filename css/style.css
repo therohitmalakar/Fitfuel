@@ -1,0 +1,228 @@
+@import url("sections/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url("sections/hero.css");
+@import url("sections/plan.css");
+@import url("sections/about.css");
+@import url("sections/subscribe.css");
+@import url("sections/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+body{
+margin: 0;
+padding: 0;
+background-color: #ffffff;
+
+}
+
+:root {
+    --primary-color: #087167;
+    --secondary-color: #0f2b29;
+    --hero-color: #86c7d6;
+    --white-font:#E0E2DD;
+    --color:#b1454a;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* header */
+@media screen and (max-width:900px) {
+
+    .header__menu{
+        display: none;
+    }
+
+    .header__menu-mobile{
+        display: flex;
+    }   
+}
+
+@media screen and (max-width:550px) {
+    .header__logo{
+        padding-left: 0;
+    }
+}
+
+/* hero */
+
+@media screen and (max-width:1060px) {
+
+    .hero__overlay{
+        min-height: 60vh;
+    }
+
+    .hero__overlay h2{
+        font-size: 70px;
+    }
+    .hero__overlay img{
+        height: 300px;
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+
+    .hero__overlay{
+        min-height: 60vh;
+    }
+
+    .hero__overlay h2{
+        font-size: 50px;
+    }
+    .hero__overlay img{
+        height: 200px;
+    }    
+}
+
+@media screen and (max-width:768px) {
+
+    .hero__overlay{
+        min-height: 60vh;
+    }
+
+    .hero__overlay h2{
+        font-size: 50px;
+    }
+    .hero__overlay img{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+
+    .hero__overlay{
+        min-height: 60vh;
+    }
+
+    .hero__overlay h2{
+        font-size: 40px;
+        padding-top: 20px;
+    }
+    .hero__overlay img{
+        display: none;
+    }
+    .hero__overlay p{
+        font-size: 12px;
+    }
+    
+}
+
+/* about-us */
+
+@media screen and (max-width:1440px) {
+    .About-Us__title{
+        font-size: 55px;
+    }
+
+    .About-Us__image{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .About-Us__title{
+        font-size: 50px;
+    }
+
+    .About-Us__image{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .About-Us__title{
+        font-size: 40px;
+    }
+
+    .About-Us__image{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .About-Us__title{
+        font-size: 35px;
+    }
+
+    .About-Us__image{
+        display: none;
+    }
+
+    .About-Us__content{
+        padding: 18px 64px 30px 64px;
+    }
+
+    .About-Us{
+        min-height: 60vh;
+    }
+
+    .About-Us__description{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .About-Us__title {
+        font-size: 30px;
+    }
+
+    .About-Us__description{
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+
+/* subscription */
+ 
+@media screen and (max-width: 550px) {
+    .Subscription {
+      padding: 64px 32px;
+    }
+
+    .Subscription h2 {
+        font-size: 68px;
+        line-height: 100px;
+      }
+
+      .Subscription__form {
+        flex-direction: column;
+        gap: 20px;
+    
+        min-width: 100%;
+        border-radius: 20px;
+        padding: 0;
+    
+        border: none;
+      }
+
+      .Subscription__form input {
+        min-height: 50px;
+    
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 10px 20px;
+        border-radius: 30px;
+      }
+
+      .Subscription__form button {
+        min-width: 100%;
+      }
+}
+
+
+

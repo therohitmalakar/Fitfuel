@@ -1,0 +1,38 @@
+.hero__overlay {
+    display: flex;
+    z-index: 5;
+    min-height: 80vh;
+    overflow: hidden; 
+}
+
+.hero__overlay-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__overlay h2 {
+    display: flex;
+    
+    margin-bottom: 0;
+    padding: 50px 0px 0px 50px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size: 80px;
+    color: var(--primary-color);
+
+}
+
+.hero__overlay p{
+    display: flex;
+    margin:0px 85px 0px 85px;
+   
+}
+
+.hero__overlay img {
+    margin: 80px 0px 0px 50px;
+    height: 400px;
+    
+}
+
+
+

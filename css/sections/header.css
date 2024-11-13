@@ -1,0 +1,72 @@
+.header__nav {
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 8px 11px rgb(15 55 54 / 15%);
+    transition: 0.5s;
+}
+
+.header__logo {
+    flex: 1;
+    display: flex;
+    position:relative;
+}
+
+.header__logo-overlay {
+    position: absolute;
+    width: 100%;
+    background-color: #F5F5F5;
+    inset: 0;
+    z-index: -1;
+
+    
+}
+
+.header__logo h4 {
+    padding-left: 50px;
+    margin: 15px 0px 15px 0px;
+    color: var(--primary-color);
+    font-family: "Matemasie", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.header__menu, .header__menu-mobile {
+    display: flex;
+    flex: 1.2;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    /* width: 100%; */
+    list-style: none;
+}
+
+.header__menu li a {
+    font-size: 16px; 
+    text-transform: uppercase;
+    line-height: 20px;
+    cursor: pointer;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: "Anek Devanagari", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    /* font-variation-settings: 100; */
+}
+
+.header__menu img {
+    height: 24px;
+    width: 24px;
+    object-fit: contain;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+.header__menu-mobile{
+    display: none;
+    gap: 20px;
+
+    position: relative;
+}
