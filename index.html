@@ -89,11 +89,31 @@
 </div>
 </div>
 
-  <button class="plan__button-btn">BMI COUNT
+  <button class="plan__button-btn" id="show-calc">BMI COUNT
     <img src="assets/bxs-hot.svg" alt="fire">
   </button>
+  <div class="popup">
+    <div class="close-btn">&times;</div>
+    <div class="bmi-form">
+      <h2>Calculate</h2>
+      <div class="bmi-element">
+        <label for="Age">Age</label>
+        <input type="text" id="Age">
+      </div>
+      <div class="bmi-element">
+        <label for="weight">Weight</label>
+        <input type="text" id="weight">
+      </div>
+      <div class="bmi-element">
+        <label for="height">Height</label>
+        <input type="text" id="height">
+      </div>
+      <div class="bmi-element">
+        <button>Calculate your BMI</button>
+      </div>
+    </div>
+  </div>
 
- <div class="calc"> </div> 
 
   </section>
 
@@ -131,7 +151,7 @@
 
   <footer class="footer flex-between">
     <h3 class="footer__logo">
-      <span>Do</span>nut
+      <span>Fit</span>Fuel
     </h3>
 
     <ul class="footer__nav">
